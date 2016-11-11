@@ -1,0 +1,25 @@
+{
+    "name": "luisinder/maintenance-middleware",
+    "description": "Slim 3 middleware that returns an error when maintenance mode is activated",
+    "keywords": [
+        "maintenance", "middleware"
+    ],
+    "homepage": "https://github.com/luisinder/maintenance-middleware",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Luis Cajigas",
+            "email": "luic87@gmail.com",
+            "homepage": "https://github.com/luisinder"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Luisinder\\Middleware\\": "src"
+        }
+    }
+}
