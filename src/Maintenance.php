@@ -9,7 +9,7 @@ Class Maintenance
 	protected $maintenanceMode;
 	protected $errorObject;
 
-	public function __construct($maintenanceMode = false, stdClass $errorObject)
+	public function __construct(bool $maintenanceMode = false, $errorObject)
 	{
 		$this->maintenanceMode = $maintenanceMode;
 		$this->errorObject = $errorObject;
